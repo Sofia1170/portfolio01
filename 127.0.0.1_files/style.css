@@ -206,6 +206,7 @@ margin-top: 150px;
 .proel {
   height: 15vh;
 }
+
 .projects {
   height: 100vh;
   background: #1d02388f;
@@ -216,7 +217,12 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 150px;
 }
-
+.scale {
+  transition: 1s; 
+ }
+ .scale:hover {
+  transform: scale(1.2); 
+ }
  
 .verh {
   margin-right: 25%;
